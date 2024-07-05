@@ -1,5 +1,5 @@
 # Intel-Product-Sentimental-analysis-2024
-A python tool to classify the reviews from E-commerce sites as POSITIVE, NEGATIVE &amp; COMPARATIVE
+A python tool to classify the reviews from E-commerce sites as POSITIVE, NEGATIVE & COMPARATIVE
 This project performs sentiment analysis on a dataset of textual reviews. The sentiment of each review is predicted using a Naive Bayes classifier trained on TF-IDF vectorized text data.
 
 Project Structure
@@ -7,16 +7,18 @@ sentiment_analysis.py: Main Python script to perform sentiment analysis.
 sentimental_analysis_updated.csv: Input dataset containing reviews and their actual sentiment labels.
 Requirements
 Ensure you have the following Python packages installed:
-
 pandas
 scikit-learn
+
 You can install the required packages using pip: pip install pandas scikit-learn
 Dataset
 The dataset sentimental_analysis_updated.csv should be placed in the C:\\Users\\User\\Desktop\\ML\\ directory. It contains two columns:
 
 reviews.text_reduce: The text of the reviews.
 label: The actual sentiment label of each review.
+
 Running the Code
+
 To run the sentiment analysis script, execute the following command in your terminal or command prompt: python sentiment_analysis.py
 Code Overview
 1. Load the Dataset: The dataset is loaded using pandas.
