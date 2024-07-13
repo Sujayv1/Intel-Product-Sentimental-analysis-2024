@@ -9,7 +9,9 @@ Project Structure:-
 
 random_forest.py - supervised approach - RANDOMFOREST APPROACH
 kmeans_approach.py - unsupervised approach - KMEANS APPROACH
-Dataset file : data.csv
+data.csv - Dataset file
+review_scraping.ipynb - used to extract reviews from E-commerce websites
+
 
 SETUP:-
 Install the libraries using the commands : pip install pandas scikit-learn seaborn matplotlib numpy
