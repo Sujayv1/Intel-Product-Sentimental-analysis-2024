@@ -2,33 +2,36 @@
 A python tool to classify the reviews from E-commerce sites as POSITIVE, NEGATIVE & COMPARATIVE
 This project performs sentiment analysis on a dataset of textual reviews. The sentiment of each review is predicted using a Naive Bayes classifier trained on TF-IDF vectorized text data.
 
+>< We've completed our project using both supervised and Unsupervised approach.
+
 About our files:
 Project Structure:-
 
-intel - supervised approach - RANDOMFOREST APPROACH
-Untrained(optional) - unsupervised approach - KMEANS APPROACH
+random_forest.py - supervised approach - RANDOMFOREST APPROACH
+kmeans_approach.py - unsupervised approach - KMEANS APPROACH
 Dataset file : data.csv
 
-Ensure you have the following Python packages installed:
-pandas
-scikit-learn
-seaborn
+SETUP:-
+Install the libraries using the commands : pip install pandas scikit-learn seaborn matplotlib numpy
 
-Install the libraries using the commands : pip install pandas scikit-learn seaborn
 
-reviews.text_reduce: The text of the reviews.
-label: The actual sentiment label of each review.
-
+IMPORTANT NOTE:- 
+1. Both the codes have the requirement of same csv file ie.,, data.csv
+2. All the outputs are shown in the TERMINAL in VSCODE.
 
 Output:
 The script prints the following information:
 
-All reviews with their actual and predicted sentiments.
-Positive reviews with their actual and predicted sentiments.
-Negative reviews with their actual and predicted sentiments.
-Competition reviews with their actual and predicted sentiments.
-Future reviews with their actual and predicted sentiments.
-Model evaluation, including accuracy and a detailed classification report.
+> Classification Report
+> Accuracy Score
+> Sentiment Counts(Total number of different reviews present in the csv file).
+> GRAPHS -> 1. Sentimental Counts
+         -> 2. Distribution of Ratings, Sentiments, Geo, SKU, Technical features.
+> Sentiment trends over a period.
+> Exploratory Data Analysis
+> Key Features Extracted and Mapped to Sentiments
+> Key Improvements Suggested by Positive and Negative Reviews.
+
 
 License
 This project is licensed under the MIT License. See the LICENSE file for details.
