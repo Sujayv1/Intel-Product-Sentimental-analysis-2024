@@ -7,15 +7,14 @@ Project Structure:-
 
 intel - supervised approach - RANDOMFOREST APPROACH
 Untrained(optional) - unsupervised approach - KMEANS APPROACH
+Dataset file : data.csv
 
 Ensure you have the following Python packages installed:
 pandas
 scikit-learn
 seaborn
 
-You can install the required packages using pip: pip install pandas scikit-learn
-Dataset
-The dataset sentimental_analysis_updated.csv should be placed in the #YOUR_PATH. It contains two columns:
+Install the libraries using the commands : pip install pandas scikit-learn seaborn
 
 reviews.text_reduce: The text of the reviews.
 label: The actual sentiment label of each review.
