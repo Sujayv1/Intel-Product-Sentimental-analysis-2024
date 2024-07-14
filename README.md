@@ -24,15 +24,15 @@ IMPORTANT NOTE:-
 Output:
 The script prints the following information:
 
-# Classification Report.
-# Accuracy Score.
-# Sentiment Counts(Total number of different reviews present in the csv file).
-# GRAPHS - 1. Sentimental Counts.
-#         - 2. Distribution of Ratings, Sentiments, Geo, SKU, Technical features.
-# Sentiment trends over a period.
-# Exploratory Data Analysis.
-# Key Features Extracted and Mapped to Sentiments.
-# Key Improvements Suggested by Positive and Negative Reviews.
+- Classification Report.
+- Accuracy Score.
+- Sentiment Counts(Total number of different reviews present in the csv file).
+- GRAPHS - 1. Sentimental Counts.
+- 2. Distribution of Ratings, Sentiments, Geo, SKU, Technical features.
+- Sentiment trends over a period.
+- Exploratory Data Analysis.
+- Key Features Extracted and Mapped to Sentiments.
+- Key Improvements Suggested by Positive and Negative Reviews.
 
 
 License
